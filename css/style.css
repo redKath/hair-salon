@@ -3,7 +3,7 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -11,7 +11,48 @@
 /* LAYOUT
 /*******************************************/
 
+body {
+  background: #f6f0e9;
+}
 
+header {
+  height: 35px;
+}
+
+nav img {
+  height: 50px;
+  width: auto;
+}
+
+nav {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #3a1b0f;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  width: 130px;
+}
+
+main {
+  background: url(../assets/mainbg.png), #f6f0e9;
+  background-repeat: no-repeat, no-repeat;
+  /* background-position: center center, center center; */
+  background-attachment: fixed, fixed;
+  background-size: cover, cover;
+  height: 600px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
