@@ -54,6 +54,17 @@ main {
   height: 600px;
 }
 
+.services {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.servicesIndividual {
+  margin: 0 50px;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
