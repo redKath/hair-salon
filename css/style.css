@@ -65,8 +65,15 @@ main {
   margin: 0 50px;
 }
 
-.aboutUs {
+.aboutUs,
+.lookbook {
   text-align: center;
+}
+
+.container,
+.wg-slider {
+  display: flex;
+  justify-content: center;
 }
 
 /******************************************
