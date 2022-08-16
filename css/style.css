@@ -79,3 +79,21 @@ main {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+footer {
+  display: flex;
+}
+
+footer>section {
+  padding: 0 50px;
+}
+
+.ourCareUl {
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul li {
+  list-style: none;
+  /* width: 130px; */
+}
