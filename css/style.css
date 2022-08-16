@@ -13,6 +13,8 @@
 
 body {
   background: #f6f0e9;
+  font-family: 'Crimson Text', serif;
+
 }
 
 header {
@@ -22,6 +24,18 @@ header {
 nav img {
   height: 50px;
   width: auto;
+  padding-right: 150px;
+  padding-left: 50px;
+}
+
+.contact {
+  padding-right: 250px;
+}
+
+.bookOnline {
+  width: 200px;
+  border: solid #825542 2px;
+  padding: 0 8px;
 }
 
 nav {
@@ -49,7 +63,7 @@ main {
   background: url(../assets/mainbg.png), #f6f0e9;
   background-repeat: no-repeat, no-repeat;
   /* background-position: center center, center center; */
-  background-attachment: fixed, fixed;
+  /* background-attachment: fixed, fixed; */
   background-size: cover, cover;
   height: 600px;
 }
