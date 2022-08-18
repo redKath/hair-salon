@@ -11,6 +11,11 @@
 /* LAYOUT
 /*******************************************/
 
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
 body {
   background: #f6f0e9;
   font-family: 'Crimson Text', serif;
@@ -18,7 +23,7 @@ body {
 }
 
 header {
-  height: 75px;
+  height: 70px;
 }
 
 nav img {
@@ -51,6 +56,7 @@ nav a {
   text-decoration: none;
   color: #3a1b0f;
   font-weight: bold;
+  font-size: 1.3rem;
 }
 
 ul {
@@ -71,6 +77,67 @@ main {
   background-size: cover, cover;
   height: 600px;
 }
+
+main>section>* {
+  margin: 0 150px;
+}
+
+main section {
+  width: 800px;
+}
+
+main h1 {
+  font-size: 9rem;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  color: #3a1b0f;
+}
+
+main h1+p {
+  font-size: 1.25rem;
+  padding: 0 0 30px 0;
+
+}
+
+.ourServicesMain {
+
+  border: #3a1b0f 1px solid;
+  background: #3a1b0f;
+  color: #f6f0e9;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.firstVisitorsDiscount {
+  border: #3a1b0f 1px solid;
+  background: #3a1b0f;
+  color: #f6f0e9;
+  width: 175px;
+  padding: 10px 10px 20px 10px;
+  margin-top: 50px;
+
+}
+
+.firstVisitorsDiscount p {
+  font-size: 1.25rem;
+  padding-bottom: 15px;
+}
+
+.firstVisitorsDiscount p span {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.firstVisitorsDiscount a {
+  border: #f6f0e9 1px solid;
+  background: #f6f0e9;
+  color: #3a1b0f;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
 
 .services {
   display: flex;
