@@ -99,22 +99,25 @@ main h1+p {
 
 }
 
-.ourServicesMain {
+.ourServicesMain,
+.links {
 
   border: #3a1b0f 1px solid;
   background: #3a1b0f;
   color: #f6f0e9;
   text-decoration: none;
   padding: 10px 20px;
+  border-radius: 5px;
 }
 
 .firstVisitorsDiscount {
   border: #3a1b0f 1px solid;
   background: #3a1b0f;
   color: #f6f0e9;
-  width: 175px;
-  padding: 10px 10px 20px 10px;
+  width: 180px;
+  padding: 10px 10px 20px 20px;
   margin-top: 50px;
+  border-radius: 5px;
 
 }
 
@@ -138,6 +141,28 @@ main h1+p {
   font-weight: bold;
 }
 
+.aboutUs {
+  margin: 100px 0;
+
+}
+
+.aboutUs h3 {
+  font-size: 3rem;
+}
+
+.aboutUs h1 {
+  font-size: 6rem;
+}
+
+.aboutUs p {
+  font-size: 2rem;
+  padding-bottom: 50px;
+}
+
+.aboutUs a {
+  text-decoration: none;
+
+}
 
 .services {
   display: flex;
