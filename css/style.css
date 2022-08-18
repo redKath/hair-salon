@@ -42,7 +42,6 @@ nav img {
   border: solid #825542 2px;
   padding: 10px 0;
   text-align: center;
-  border-radius: 5px;
 }
 
 nav {
@@ -68,6 +67,8 @@ ul li {
   list-style: none;
   width: 130px;
 }
+
+/* ============= main section ================*/
 
 main {
   background: url(../assets/mainbg.png), #f6f0e9;
@@ -107,7 +108,6 @@ main h1+p {
   color: #f6f0e9;
   text-decoration: none;
   padding: 10px 20px;
-  border-radius: 5px;
 }
 
 .firstVisitorsDiscount {
@@ -117,7 +117,6 @@ main h1+p {
   width: 180px;
   padding: 10px 10px 20px 20px;
   margin-top: 50px;
-  border-radius: 5px;
 
 }
 
@@ -141,8 +140,10 @@ main h1+p {
   font-weight: bold;
 }
 
+/* ============= about section ================*/
+
 .aboutUs {
-  margin: 100px 0;
+  margin: 100px 0 50px 0;
 
 }
 
@@ -164,20 +165,34 @@ main h1+p {
 
 }
 
+/* ============= services section ================*/
+
 .services {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
-  margin: 50px 0;
+  padding: 100px 0;
+  background: #C3B3AE;
+
 }
 
 .servicesIndividual {
-  margin: 0 50px;
+  font-size: 1.5rem;
+  width: 200px;
 }
 
 .aboutUs,
 .lookbook {
   text-align: center;
+}
+
+/* ============= services section ================*/
+.lookbook {
+  margin: 100px 0;
+}
+
+.lookbook h2 {
+  font-size: 4rem;
 }
 
 .container,
