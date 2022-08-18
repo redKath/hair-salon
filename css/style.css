@@ -18,24 +18,26 @@ body {
 }
 
 header {
-  height: 35px;
+  height: 75px;
 }
 
 nav img {
   height: 50px;
   width: auto;
-  padding-right: 150px;
+  padding-right: 270px;
   padding-left: 50px;
 }
 
 .contact {
-  padding-right: 250px;
+  padding-right: 100px;
 }
 
 .bookOnline {
-  width: 200px;
+  width: 180px;
   border: solid #825542 2px;
-  padding: 0 8px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 5px;
 }
 
 nav {
@@ -48,10 +50,12 @@ nav {
 nav a {
   text-decoration: none;
   color: #3a1b0f;
+  font-weight: bold;
 }
 
 ul {
   display: flex;
+  align-items: center;
 }
 
 ul li {
