@@ -33,6 +33,16 @@ nav img {
   padding-left: 50px;
 }
 
+.imageFull {
+  display: block;
+}
+
+.imageMobile,
+#menu-toggle {
+  display: none;
+}
+
+
 .contact {
   padding-right: 100px;
 }
