@@ -23,9 +23,9 @@
     main {
         background: url(../assets/mainbg-mobile.png);
         background-repeat: no-repeat;
-        /* background-position: center center;
-        background-attachment: fixed;
-        background-size: cover; */
+        background-position: bottom right;
+        /* background-attachment: fixed; */
+        background-size: cover;
         height: 475px;
     }
 
@@ -38,14 +38,14 @@
     }
 
     nav {
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     nav img {
         height: 50px;
         width: auto;
-        padding-right: 180px;
-        padding-left: 20px;
+        padding-right: 100px;
+        padding-left: 10px;
     }
 
     nav ul {
