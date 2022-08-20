@@ -1,0 +1,117 @@
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+@media screen and (max-width:480px) {
+    html {
+        /* 1rem = 10px */
+        font-size: 44%;
+    }
+
+    main section {
+        width: 650px;
+    }
+
+    main>section>* {
+        margin: 0 40px;
+    }
+
+    main h1 {
+        padding-top: 88px;
+    }
+
+    main {
+        background: url(../assets/mainbg-mobile.png);
+        background-repeat: no-repeat;
+        /* background-position: center center;
+        background-attachment: fixed;
+        background-size: cover; */
+        height: 475px;
+    }
+
+    .imageFull {
+        display: block;
+    }
+
+    .imageMobile {
+        display: block;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    nav img {
+        height: 50px;
+        width: auto;
+        padding-right: 180px;
+        padding-left: 20px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .aboutUs {
+        margin: 100px 20px 47px 20px;
+    }
+
+    .aboutUs p {
+        width: 200px;
+        margin: auto;
+    }
+
+    .services {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    .lookbook {
+        margin-top: 150px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .businessHours ul {
+        width: 180px;
+        margin: auto;
+    }
+}
+
+@media (min-width:481px) and (max-width:800px) {
+    nav img {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+
+    nav ul li:first-child,
+    nav ul li:nth-child(2) {
+        display: none;
+    }
+
+    main {
+        background: url(../assets/mainbg-tablet.png);
+        background-repeat: no-repeat;
+        /* background-position: center center;
+        background-attachment: fixed;
+        background-size: cover; */
+        height: 600px;
+    }
+
+    main>section>* {
+        margin: 0 50px;
+    }
+
+    .bookOnline {
+        width: 123px;
+    }
+
+    .aboutUs p {
+        width: 400px;
+        margin: auto;
+    }
+}
