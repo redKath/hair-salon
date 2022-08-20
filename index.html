@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="description" content="This is where your description goes">
         <meta name="keywords" content="one, two, three">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vige & Co.</title>
         <link rel="shortcut icon" href="./assets/favicon.png" />
         <!-- external CSS link -->
@@ -19,15 +19,23 @@
         <!-- stylesheets -->
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/screens.css">
         <link rel="stylesheet" href="css/3dcarousel.css">
+        <link rel="stylesheet" href="css/sidebar.css">
+
+
     </head>
 
     <body>
         <header>
             <nav>
-                <img src="./assets/navlogo.png" alt="Hair icon with text Vige and Co.">
-                <ul>
-                    <li><a href="#">HOME</a></li>
+                <img src="./assets/navlogo.png" alt="Hair icon with text Vige and Co." class="imageFull">
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                </label>
+                <ul class="menu">
+                    <li><a href=" #">HOME</a></li>
                     <li><a href="#">ABOUT</a></li>
                     <li><a href="#">SERVICES</a></li>
                     <li><a href="#">LOOKBOOK</a></li>
