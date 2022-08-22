@@ -39,7 +39,7 @@ nav img {
 
 .imageMobile,
 #menu-toggle {
-  /* remove space give for it from DOM */
+  /* remove space given for it from DOM */
   display: none;
 }
 
