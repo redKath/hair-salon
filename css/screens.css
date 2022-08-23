@@ -8,6 +8,10 @@
         font-size: 44%;
     }
 
+    header {
+        height: 50px;
+    }
+
     main section {
         width: 650px;
     }
@@ -39,12 +43,13 @@
 
     nav {
         justify-content: space-evenly;
+        align-items: center;
     }
 
     nav img {
         height: 50px;
         width: auto;
-        padding-right: 100px;
+        padding-right: 20vw;
         padding-left: 10px;
     }
 
@@ -102,13 +107,25 @@
         height: 600px;
     }
 
+    .imageFull {
+        height: 50px;
+        width: auto;
+        padding-right: 1vw;
+        padding-left: 50px;
+    }
+
     main>section>* {
         margin: 0 50px;
     }
 
-    .bookOnline {
-        width: 123px;
+    nav ul li {
+        list-style: none;
+        width: 130px;
     }
+
+    /* .bookOnline {
+        width: 123px;
+    } */
 
     .aboutUs p {
         width: 400px;
