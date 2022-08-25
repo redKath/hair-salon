@@ -1,1 +1,1 @@
-app.use(express.static('public'));
+main.use(express.static('public'));
