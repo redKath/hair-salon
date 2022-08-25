@@ -5,7 +5,7 @@
 @media screen and (max-width:480px) {
     html {
         /* 1rem = 10px */
-        font-size: 44%;
+        font-size: 40%;
     }
 
     header {
