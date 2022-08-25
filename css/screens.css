@@ -8,6 +8,12 @@
         font-size: 40%;
     }
 
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     header {
         height: 50px;
     }
@@ -108,10 +114,32 @@
         padding-left: 10px;
     }
 
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
     nav ul li:first-child,
     nav ul li:nth-child(2),
     nav ul li:nth-child(3) {
         display: none;
+    }
+
+    .bookOnline a {
+        margin: 0 5px;
+    }
+
+    .bookOnline {
+        width: 120px;
+        border: solid #3a1b0f 2px;
+        padding: 10px 0;
+        text-align: center;
     }
 
     main {
@@ -136,7 +164,7 @@
 
     nav ul li {
         list-style: none;
-        width: 130px;
+        width: 90px;
     }
 
     /* .bookOnline {

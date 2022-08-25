@@ -10,6 +10,11 @@
 /******************************************
 /* LAYOUT
 /*******************************************/
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
 html {
   /* 1rem = 10px  */
@@ -38,7 +43,8 @@ nav img {
 }
 
 .imageMobile,
-#menu-toggle {
+#menu-toggle,
+.menu:first-child {
   /* remove space given for it from DOM */
   display: none;
 }
