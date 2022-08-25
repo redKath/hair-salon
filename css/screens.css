@@ -85,6 +85,21 @@
         width: 180px;
         margin: auto;
     }
+
+    .wgh-slider-item-figure__caption a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .wgh-slider-item-figure__caption span {
+        display: block;
+        font-size: .4rem;
+        line-height: .6rem;
+    }
 }
 
 @media (min-width:481px) and (max-width:800px) {
@@ -94,7 +109,8 @@
     }
 
     nav ul li:first-child,
-    nav ul li:nth-child(2) {
+    nav ul li:nth-child(2),
+    nav ul li:nth-child(3) {
         display: none;
     }
 
@@ -130,5 +146,20 @@
     .aboutUs p {
         width: 400px;
         margin: auto;
+    }
+
+    .wgh-slider-item-figure__caption a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.8rem;
+        line-height: 2rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .wgh-slider-item-figure__caption span {
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
     }
 }

@@ -1,3 +1,9 @@
+html {
+    /* 1rem = 10px  */
+    font-size: 62.5%;
+}
+
+
 .container {
     position: relative;
     width: 100%;
@@ -299,16 +305,16 @@ input.wgh-slider-target {
 .wgh-slider-item-figure__caption a {
     display: inline-block;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 1.8rem;
+    line-height: 2rem;
     font-weight: bold;
     color: #fff;
 }
 
 .wgh-slider-item-figure__caption span {
     display: block;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
 }
 
 .wgh-slider-target:nth-of-type(8):checked~.wgh-slider__viewport .wgh-slider-item:nth-child(8),

@@ -29,7 +29,7 @@ header {
 nav img {
   height: 50px;
   width: auto;
-  padding-right: 270px;
+
   padding-left: 50px;
 }
 
@@ -58,7 +58,7 @@ nav img {
 
 nav {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-between;
   align-items: center;
 
 }
@@ -244,6 +244,10 @@ footer {
 .businessHours p a:hover {
   border-bottom: 2px solid #f6f0e9;
 
+}
+
+nav li a:hover {
+  border-bottom: 2px solid #3a1b0f;
 }
 
 footer>section {
