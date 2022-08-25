@@ -1,1 +1,0 @@
-main.use(express.static('public'));
