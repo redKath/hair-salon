@@ -68,9 +68,18 @@
         margin: 100px 20px 47px 20px;
     }
 
+    .aboutUs h3 {
+        font-size: 1.5rem;
+    }
+
+    .aboutUs h1 {
+        font-size: 3rem;
+    }
+
     .aboutUs p {
         width: 200px;
         margin: auto;
+        font-size: 1.45rem;
     }
 
     .services {
@@ -99,7 +108,7 @@
 
 }
 
-@media (min-width:481px) and (max-width:800px) {
+@media (min-width:481px) and (max-width:825px) {
 
     html,
     body {
@@ -121,24 +130,13 @@
     nav ul {
         display: flex;
         justify-content: space-evenly;
-        padding-left: 0;
+        padding-right: 10px
     }
 
     nav ul li:first-child,
     nav ul li:nth-child(2),
     nav ul li:nth-child(3) {
         display: none;
-    }
-
-    .bookOnline a {
-        margin: 0 5px;
-    }
-
-    .bookOnline {
-        width: 120px;
-        border: solid #3a1b0f 2px;
-        padding: 10px 0;
-        text-align: center;
     }
 
     footer>section {
@@ -159,7 +157,7 @@
         height: 50px;
         width: auto;
         padding-right: 1vw;
-        padding-left: 50px;
+        padding-left: 20px;
     }
 
     main>section>* {
@@ -180,4 +178,7 @@
         margin: auto;
     }
 
+    .aboutUs h1 {
+        font-size: 5rem;
+    }
 }
