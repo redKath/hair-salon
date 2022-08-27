@@ -346,13 +346,17 @@ input.wgh-slider-target {
 
 @media screen and (max-width: 480px) {
     .wgh-slider-item-figure__caption a {
-        font-size: 1rem;
+        font-size: .75rem;
         line-height: 1rem;
     }
 
     .wgh-slider-item-figure__caption span {
         font-size: 1.2rem;
         line-height: .8rem;
+    }
+
+    .container {
+        height: 300px;
     }
 }
 
