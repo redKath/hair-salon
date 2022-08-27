@@ -29,6 +29,7 @@ This is a static website with five sections.
 ### Screenshot
 Here is the sample demo of the website.
 
+https://user-images.githubusercontent.com/47875009/187013872-fe0aeb50-07d9-4f69-9e22-719fdc4d85fa.mp4
 
 ### Links
 
