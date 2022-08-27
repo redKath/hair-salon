@@ -339,3 +339,31 @@ input.wgh-slider-target {
 .wgh-slider-target:nth-of-type(1):checked~.wgh-slider__viewport .wgh-slider-item:nth-child(1)~.wgh-slider-item {
     transform: translate3d(0, 0, 0) rotateY(-45deg) !important;
 }
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
+@media screen and (max-width: 480px) {
+    .wgh-slider-item-figure__caption a {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+    .wgh-slider-item-figure__caption span {
+        font-size: 1.2rem;
+        line-height: .8rem;
+    }
+}
+
+@media (min-width:481px) and (max-width:800px) {
+    .wgh-slider-item-figure__caption a {
+        font-size: 1.4rem;
+        line-height: 1rem;
+    }
+
+    .wgh-slider-item-figure__caption span {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+}
