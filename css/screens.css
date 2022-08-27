@@ -88,28 +88,25 @@
         flex-direction: column;
     }
 
+    footer>section {
+        padding: 0;
+    }
+
     .businessHours ul {
         width: 180px;
         margin: auto;
     }
 
-    .wgh-slider-item-figure__caption a {
-        display: inline-block;
-        text-decoration: none;
-        font-size: 0.8rem;
-        line-height: 1rem;
-        font-weight: bold;
-        color: #fff;
-    }
-
-    .wgh-slider-item-figure__caption span {
-        display: block;
-        font-size: .4rem;
-        line-height: .6rem;
-    }
 }
 
 @media (min-width:481px) and (max-width:800px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     nav img {
         padding-right: 0px;
         padding-left: 10px;
@@ -123,7 +120,8 @@
 
     nav ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        padding-left: 0;
     }
 
     nav ul li:first-child,
@@ -140,6 +138,11 @@
         width: 120px;
         border: solid #3a1b0f 2px;
         padding: 10px 0;
+        text-align: center;
+    }
+
+    footer>section {
+        padding: 0 10px;
         text-align: center;
     }
 
@@ -165,7 +168,7 @@
 
     nav ul li {
         list-style: none;
-        width: 90px;
+        width: 100px;
     }
 
     /* .bookOnline {
@@ -177,18 +180,4 @@
         margin: auto;
     }
 
-    .wgh-slider-item-figure__caption a {
-        display: inline-block;
-        text-decoration: none;
-        font-size: 1.8rem;
-        line-height: 2rem;
-        font-weight: bold;
-        color: #fff;
-    }
-
-    .wgh-slider-item-figure__caption span {
-        display: block;
-        font-size: 1.4rem;
-        line-height: 1.6rem;
-    }
 }
