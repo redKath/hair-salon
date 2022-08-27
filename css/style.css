@@ -28,7 +28,7 @@ body {
 }
 
 header {
-  height: 70px;
+  height: 55px;
 }
 
 nav img {
@@ -47,19 +47,6 @@ nav img {
 .menu:first-child {
   /* remove space given for it from DOM */
   display: none;
-}
-
-
-.contact {
-  padding-right: 100px;
-}
-
-.bookOnline {
-  width: 180px;
-  border: solid #3a1b0f 2px;
-  padding: 10px 0;
-  text-align: center;
-
 }
 
 nav {
